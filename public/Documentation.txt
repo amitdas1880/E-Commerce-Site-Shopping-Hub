@@ -54,6 +54,6 @@ cvv : 123
 
 
 
-Project Documantation : https://www.youtube.com/watch?v=sjKoSzJlfao&t=6543s
+Documantation : https://www.youtube.com/watch?v=sjKoSzJlfao&t=6543s
 imageSlider : https://www.youtube.com/watch?v=UW3qE7EYF2U
 project Deploy in netlify : https://www.youtube.com/watch?v=IokPiSZpXDY
