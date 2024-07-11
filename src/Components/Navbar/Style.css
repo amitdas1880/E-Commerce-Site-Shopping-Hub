@@ -1,0 +1,209 @@
+.navbar-container{
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+}
+.navbar-all-element{
+    display: flex;
+    column-gap: 15px;
+    cursor: pointer;
+    padding-right: 1rem;
+}
+.shoppingLogo>h3{
+    font-size: 1.5rem;
+}
+.shoppingLogo{
+    display: flex;
+    column-gap: 5px;
+    padding-top: 0.5rem;
+}
+.womenLogo{
+    width: 2.5rem;
+    height: 2.5rem;
+    
+}
+.navbarHeading{
+    display:flex;
+    justify-content:center;
+    background-color: var(--colorbg12); 
+    color:white;
+    width: 100%;
+    height: 2rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1.5rem;
+    box-shadow: var(--navShadow);
+    height: 3.5rem;
+    background-color:beige;
+}
+
+
+.userIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: -0.7rem;
+}
+.dayNight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carticon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.navLinkText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkText {
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+
+.line-3{
+    border-bottom: 4px solid var(--colorbg12);
+    width: 11.8rem;
+    margin-top: -0.8rem;
+    border-radius: 8px;
+}
+
+
+
+
+
+.NavBarManu{
+    position:absolute;
+    right:0.05rem;
+    top:3.55rem;
+    padding: 0rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;  
+    background-color: white;  
+    border-radius: 4px;
+}
+.user-name{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: tomato;
+    margin-bottom: -0.3rem;
+}
+.userIcon{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.3rem;
+}
+
+.Log-In-Out {
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    
+}
+
+.active{
+    color: blue;
+    border-bottom: 3px solid tomato;
+}
+
+.mobile-screen{
+    display: none;
+}
+
+
+/* My laptop width:1115px,  height:633px and percentage:86%*/
+
+@media screen and (max-width: 1100px) {
+
+    .navbar-container{
+        width: 100%;    
+    }
+    .line-3{
+        border-bottom: 2px solid var(--colorbg12);
+        width: 100%;
+        margin-top: -0.6rem;
+    }
+    
+}
+
+
+ @media screen and (max-width: 768px) {
+    .navbar-container{
+        width: 100%;
+    }
+    .navbarHeading{
+        height: 1.5rem;
+        font-size: small;
+        width: 100%;
+    }
+    .navbar{
+        padding: 0rem 2.5rem 0rem 1.3rem;
+        height: 3rem;
+        width: 100%;
+    }
+    .navbar-all-element{
+      display: none;
+    }
+
+    .shoppingLogo h3{
+        font-size: 1rem;    
+    }
+    
+    .shoppingLogo{
+        column-gap: 3px;        
+    }
+    
+    .womenLogo{
+        width: 1.8rem;
+        height: 1.8rem;  
+    }
+    
+    
+    .line-3{
+        border-bottom: 2px solid var(--colorbg12);
+        width: 6.8rem;
+        margin-top: -0.6rem;
+    }
+    .mobile-screen{
+        display: block;
+        margin-right: 1rem;
+    }
+    
+    .active{
+        color:black;
+        border-bottom: none;
+    }
+    .NavBarManu{
+        top:3.04rem;
+        align-items: start;
+    }
+    .linkText {
+        text-decoration: none;
+        color:rgb(12, 12, 12);
+        font-weight: 500;
+        margin-bottom:0px;
+        margin-top: 2px;
+        font-size:1rem;
+    }
+    .addcart{
+        display:flex;
+        text-decoration:none;
+        color:black;
+        font-weight:600
+    }
+    
+ }
+

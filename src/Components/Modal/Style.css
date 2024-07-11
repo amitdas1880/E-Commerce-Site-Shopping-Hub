@@ -1,0 +1,16 @@
+.orderbtnFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orderbtn{
+    color: #fff !important;
+    padding: .5rem 8rem;
+}
+
+.buybtn{
+    color: white !important;
+    font-weight: 600;
+    padding: 0.3rem 4.3rem;
+}
+

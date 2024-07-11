@@ -1,0 +1,59 @@
+npm create vite@latest
+npm install @reduxjs/toolkit react-redux
+npm i react-router-dom
+
+npm i react-hot-toast
+        OR
+npm i react-toastify
+
+npm i react-icons
+npm install @mui/material @emotion/react @emotion/styled
+npm install react-bootstrap bootstrap
+npm i react-tabs
+npm install firebase
+npm i swiper
+npm i react-image-magnify --save --force
+
+
+
+
+
+
+
+
+
+
+
+
+VVI
+Creation of PAYMENT mode using Razorpay 
+vedio link : https://www.youtube.com/watch?v=7TX7DErMvVE
+vedio link : https://www.youtube.com/watch?v=sjKoSzJlfao&t=12211s
+
+Razorpay site link : https://x.razorpay.com/auth
+
+
+key_id : rzp_test_8DwQYRuTSoPzgp
+key_secret : TltD3J9FB5WdDM1Chj4b8yhA
+
+Card detail :-
+Card Number  : 4111 1111 1111 1111
+Expiry : 05/25
+Card Holder's Name : Amit kumar das
+cvv : 123 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Documantation : https://www.youtube.com/watch?v=sjKoSzJlfao&t=6543s
+imageSlider : https://www.youtube.com/watch?v=UW3qE7EYF2U
+project Deploy in netlify : https://www.youtube.com/watch?v=IokPiSZpXDY

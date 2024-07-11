@@ -1,0 +1,67 @@
+.singup-wrapper{
+    width: 70%;
+    max-width: 450px;
+    height: auto;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signinIcon{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 35px;
+    
+}
+.p-login{
+    text-align:center; 
+    margin:0px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+.btn button {
+        padding:0.3rem 7.3rem;
+        border:1px solid blue;
+}
+
+
+@media (max-width:640px) {
+    .btn button {
+        padding:0.3rem 6.3rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width:560px) {
+    .btn button {
+        padding:0.3rem 3.5rem;
+        font-size: 0.8rem;       
+    }
+
+    .signinIcon{
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 35px;
+    }
+}
+ 
+@media (max-width:430px) {
+    .btn button {
+        padding:0.3rem 2.5rem;
+        font-size: 0.8rem;       
+    }
+}

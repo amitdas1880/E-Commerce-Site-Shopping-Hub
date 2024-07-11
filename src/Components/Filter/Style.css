@@ -1,0 +1,61 @@
+.mainContainer{
+    margin-top: 2rem;
+    padding: 1rem 0rem;
+    width: 80%;
+    height: 50%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: rgb(234, 234, 247);
+    border-radius: 8px;
+}
+.topPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+}
+
+.searchBar{
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 5px 8px;
+    width: 65%;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; 
+    column-gap: 0.5rem;  
+     
+}
+.middlePart{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 0.5rem;
+}
+.filterBtn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.dropdown{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    margin-left: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 25vw;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 615px) {
+    
+.dropdown{
+    margin-left:0px ;
+    width: 49vw;
+}
+}

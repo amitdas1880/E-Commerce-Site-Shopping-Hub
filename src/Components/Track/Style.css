@@ -1,0 +1,54 @@
+.memo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 45px;
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+}
+
+.memo-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    justify-content: center;
+    
+}
+.memologocontainer{
+    padding: 12px 0px;
+}
+.memologo{
+    font-size: 3rem;
+    color: rgb(238, 41, 74);
+}
+
+
+
+@media (max-width:1175) {
+    
+    
+    .memo-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        justify-content: center;
+        margin-bottom: 1rem;
+        
+    }
+
+
+    .memo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 45px;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+        row-gap: 20px;
+    }
+    
+           
+}

@@ -1,0 +1,45 @@
+.singup-wrapper{
+    width: 70%;
+    max-width: 450px;
+    height: auto;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+}
+.title{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: rgb(1, 92, 1);
+    font-weight: 600;
+}
+.p-login{
+    text-align:center; 
+    margin:0px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+.AddUpdate{
+    padding:0.3rem 4.2rem;
+    border:2px solid yellowgreen;
+    font-size: large;
+    padding: 0.3rem 8rem;
+    
+}
+
+.AddUpdate-2{
+    padding:0.3rem 4.2rem;
+    border:2px solid yellowgreen;
+    font-size: large;
+    padding: 0.3rem 7.7rem;
+}
